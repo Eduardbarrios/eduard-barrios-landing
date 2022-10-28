@@ -1,0 +1,25 @@
+{
+  "name": "eduard-barrios-landing",
+  "version": "1.0.0",
+  "description": "este es un proyecto de una landing page para practicar el asincronismo en JavaScript y el consumo de APIRest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduardbarrios/eduard-barrios-landing.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "APIRest"
+  ],
+  "author": "Eduard09 <eduardbarriios0903@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eduardbarrios/eduard-barrios-landing/issues"
+  },
+  "homepage": "https://github.com/Eduardbarrios/eduard-barrios-landing#readme"
+}

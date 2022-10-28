@@ -1,0 +1,127 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+html{
+ font-size: 62.5%;
+}
+ul{
+ list-style: none;
+}
+a{
+ text-decoration: none;
+ color: black;
+}
+
+.container{
+  position: relative;
+  background: rgb(0,2,4);
+  background: linear-gradient(171deg, rgba(0,2,4,1) 0%, rgba(173,112,112,1) 45%, rgba(222,186,112,1) 86%);
+}
+.photo{
+ display: flex;
+ background-image: url(../assets/nosotros-en-ele-sofa.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 60vh;
+ clip-path: polygon(
+  0% 0%,
+  100% 0%,
+  100% 80%,
+  0% 50%);
+}
+.title{
+ position: absolute;
+ top:260px;
+ width: 50%;
+ margin-left:5%;
+ font-size: 5rem;
+}
+.description{
+ width: 70%;
+ margin-top: 70px;
+ margin-left: calc(15%)
+
+}
+.description .description-text{
+ font-size: 2rem;
+}
+.visitanos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+ width: 100%;
+}
+.visitanos .video{
+  width: fit-content;
+  margin: 10px;
+}
+.video  img{
+  width: 250px;
+}
+.video h3{
+  max-width: 200px;
+}
+
+.footer{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ width: 100%;
+ height: 100px;
+ position: relative;
+ bottom: 0;
+}
+.div-redes{
+ justify-self: center;
+ align-items: center;
+ flex-wrap: wrap;
+ justify-content: center;
+ display: flex;
+}
+.redes{
+ font-size: 5rem;
+ margin: 5px;
+ width: fit-content;
+ height: fit-content;
+ color: black;
+}
+ .youtube{
+ color: red;
+ margin-bottom: 0px;
+}
+.facebook{
+ color: #3b5998;
+}
+.div-logo{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ display: flex;
+ width: 200px;
+ height: 200px;
+ background-image: url(../assets/pensamientos\ de\ sofá\ logo.svg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+@media(max-width: 620px){
+ .photo{
+  height: 40vh;
+ background-position: center;
+ }
+ .title{
+  top:180px;
+  width: 50%;
+  font-size: 2.5rem;
+  min-width: 200px;
+ }
+ .description{
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 10px;
+ 
+ }
+}
