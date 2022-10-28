@@ -113,7 +113,7 @@ a{
  background-position: center;
  }
  .title{
-  top:180px;
+  top:300px;
   width: 50%;
   font-size: 2.5rem;
   min-width: 200px;
@@ -124,4 +124,6 @@ a{
   margin-top: 10px;
  
  }
+ .visitanos{
+  margin-bottom: 100px;
 }
