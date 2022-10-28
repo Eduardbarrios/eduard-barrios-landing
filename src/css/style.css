@@ -33,15 +33,14 @@ a{
   0% 50%);
 }
 .title{
- position: absolute;
- top:260px;
+ position: relative;
+ top:-80px;
  width: 50%;
  margin-left:5%;
  font-size: 5rem;
 }
 .description{
  width: 70%;
- margin-top: 70px;
  margin-left: calc(15%)
 
 }
@@ -113,15 +112,14 @@ a{
  background-position: center;
  }
  .title{
-  top:300px;
+  top:-40px;
   width: 50%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   min-width: 200px;
  }
  .description{
   width: 90%;
   margin-left: 20px;
-  margin-top: 10px;
  
  }
  .visitanos{
